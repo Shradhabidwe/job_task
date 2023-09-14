@@ -1,0 +1,70 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+}
+
+.task-form {
+    text-align: center;
+    margin: 20px;
+}
+
+#taskInput {
+    padding: 5px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#taskList li {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#taskList li:hover {
+    background-color: #f0f0f0;
+}
+
+.task-actions {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Highlight selected task */
+.selected {
+    background-color: #007BFF;
+    color: white;
+}
